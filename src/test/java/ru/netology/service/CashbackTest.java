@@ -7,7 +7,6 @@ import ru.netology.sevice.CashbackHackService;
 import static org.junit.Assert.assertEquals;
 
 
-
 public class CashbackTest {
     CashbackHackService cashbackHackService = new CashbackHackService();
 
@@ -15,6 +14,7 @@ public class CashbackTest {
     public void CashbackTest() {
         assertEquals(0, cashbackHackService.remain(-200));
     }
+
     @Test
     public void CashbackTest1() {
         assertEquals(0, cashbackHackService.remain(0));

@@ -7,7 +7,7 @@ import ru.netology.sevice.CashbackHackService;
 import static org.junit.Assert.assertEquals;
 
 
-public class CashbackTest {
+public class CashbackTests {
     @Test
     public void CashbackTest() {
         CashbackHackService cashbackHackService = new CashbackHackService();
