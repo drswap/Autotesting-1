@@ -27,7 +27,7 @@ public class CashbackTest {
 
     @Test
     public void CashbackTest3() {
-        assertEquals(1, cashbackHackService.remain(999));
+        assertEquals(1, cashbackHackService.remain(998));
     }
 
     @Test
